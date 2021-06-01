@@ -2,3 +2,45 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.hero {
+    max-width: 100%;
+}
+
+.card_container {
+    background-color:#171717;
+    color: white;
+    height: 100vh;
+}
+
+.btn-container,
+.movie-info,
+.tags {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-container {
+
+}
+
+button {
+    border: 1px solid black;
+    background: darkgray;
+    filter: invert(1);
+    border-radius: 50%;
+    padding: 1em;
+}
+
+.movie-info {
+
+}
+
+.rating {
+    color: limegreen;
+    font-weight: bold;
+}
